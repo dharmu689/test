@@ -22,21 +22,11 @@ int main()
     while(top<=bottom)
     {
          mid = (top+bottom)/2;
+
+         if()
          
-        if(arr[mid] == item)
-       {
-          result = mid;
-       }
-        else if(arr[mid] < item)
-
-        top = mid +1;
-
-        else
-        bottom = mid - 1;
-
+       
      }
-
-     (result != -1) ? cout<<"element found at index: "<<mid : cout<<"Element not found";
    
     return 0;
 }
