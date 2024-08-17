@@ -18,7 +18,6 @@ int main()
     top = 0;
     bottom = n-1;
    
-
     while(top<=bottom)
     {
          mid = (top+bottom)/2;
