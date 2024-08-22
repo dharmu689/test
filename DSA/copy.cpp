@@ -28,5 +28,7 @@ int main()
     if (!found)
         cout << "Item not found in the array." << endl;
 
+        
+
     return 0;
 }
