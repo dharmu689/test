@@ -19,7 +19,7 @@ int main()
     for(i=0;i<n;i++){
     if(arr[i]==item){
     cout<<"found the data :"<<i;
-     return 0;
+    return 0;
     }
 
     }

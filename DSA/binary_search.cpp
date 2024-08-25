@@ -22,9 +22,20 @@ int main()
     {
          mid = (top+bottom)/2;
 
-         if()
+         if(arr[mid]<item)
+         top = mid+1;
+         else if(arr[mid]==item)
+         {
+            cout<<"item found at: "<<mid;
+            break;
+         }
+         else
+         bottom = mid + 1;
+         mid = (top+bottom)/2;
          
      }
+     if(top>bottom)
+     cout<<"item is not found: ";
    
     return 0;
 }
