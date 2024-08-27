@@ -16,7 +16,6 @@ class dharmu
     cout<<"the result: "<<c;
 
 
-
    }
 };
 
