@@ -6,10 +6,14 @@ class def
    private:
    int x,y;
    public:
-   def(int a, int b=0) ;
+
+    def(int a, int b=0)
+
    {
-    x=a;
-    y=b;
+
+     x=a;
+     y=b;
+
    }
    void show()
    {
