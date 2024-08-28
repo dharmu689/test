@@ -10,11 +10,9 @@ class def
     def(int a, int b=0)
 
    {
-
      x=a;
      y=b;
-
-   }
+ }
    void show()
    {
     cout<<"the entered values are: ";
