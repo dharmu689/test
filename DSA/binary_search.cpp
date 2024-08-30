@@ -30,8 +30,8 @@ int main()
             break;
          }
          else
-         bottom = mid + 1;
-         mid = (top+bottom)/2;
+         bottom = mid - 1;
+        
          
      }
      if(top>bottom)

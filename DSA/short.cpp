@@ -28,7 +28,7 @@ int  main()
     cout<<"shorted element: ";
     for(i=0;i<n;++i)
     {
-        cout<<arr[i]<<endl;
+        cout<<arr[i]<<" ";
     }
      return 0;
 }
