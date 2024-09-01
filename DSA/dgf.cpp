@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a[5] = {5, 8, 65, 52, 32};
+    int item, i;
+    cout << "Enter the item to be found: ";
+    cin >> item;
+
+    for(i = 0; i < 5; i++)
+    {
+        if(a[i] == item)
+        {
+            cout << "Item is found at index: " << i << endl;
+            break; // Exit the loop once the item is found
+        }
+    }
+
+    if(i == 5)
+    {
+        cout << "Item is not found" << endl;
+    }
+
+    return 0;
+}
