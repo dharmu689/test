@@ -13,8 +13,7 @@ int main()
     }
     cout<<"Enter element to be delete: ";
     cin>>del;
-    cout<<"Enter the position in which element is to be delete: ";
-    cin>>del;
+    
     for(i=0;i<n;i++)
     {
         if(arr[i]==del)
