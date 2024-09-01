@@ -13,7 +13,7 @@ int main()
         if(a[i] == item)
         {
             cout << "Item is found at index: " << i << endl;
-            break; // Exit the loop once the item is found
+            break; 
         }
     }
 
