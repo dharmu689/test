@@ -7,13 +7,11 @@ int r=5;
 class abc
 {
     public:
-
     int x,y,z;
 
    void display()
     {
         z = x * y;
-        
         cout<<z;
     }
 };
