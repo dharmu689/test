@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
     int a[5] = {5, 8, 65, 52, 32};
+    
     int item,i;
     
     cout << "Enter the item to be found: ";
