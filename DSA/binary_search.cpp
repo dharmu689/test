@@ -10,7 +10,9 @@ int main()
 
     cout << "Enter the elements of array: ";
     for(i = 0; i < n; i++)
+        {
         cin >> arr[i];
+        }
 
     cout << "Enter the element to find in array: ";
     cin >> item;
@@ -33,6 +35,7 @@ int main()
         }
         else
             bottom = mid - 1;
+            mid = (top+bottom)/2;
     }
 
     if(top > bottom)
