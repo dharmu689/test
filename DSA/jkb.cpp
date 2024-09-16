@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int arr[100], n, i, top, bottom, mid, item;
+    int arr[20], n, i, top, bottom, mid, item;
 
     cout << "Enter the size of array: ";
     cin >> n;
@@ -34,7 +34,7 @@ int main()
     }
 
     if(top > bottom)
-        cout << "Item not found.";
+        cout << "Item not found."<<item;
 
     return 0;
 }
