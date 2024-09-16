@@ -6,6 +6,7 @@ int main()
     int a[5] = {5, 8, 65, 52, 32};
     
     int item,i;
+    // enter the item
     
     cout << "Enter the item to be found: ";
     cin >> item;
