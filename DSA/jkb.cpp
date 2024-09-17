@@ -10,6 +10,7 @@ int main()
 
     cout << "Enter the elements of array: ";
     for(i = 0; i < n; i++)
+
         cin >> arr[i];
 
     cout << "Enter the element to find in array: ";
@@ -26,7 +27,7 @@ int main()
             top = mid + 1;
         else if(arr[mid] == item)
         {
-            cout << "Item found at index: " << mid;
+            cout << "Item" << " " <<item <<" found at index: " << mid;
             break;
         }
         else
