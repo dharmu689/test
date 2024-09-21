@@ -22,7 +22,7 @@ int main()
 
     if(i == 5)
     {
-        cout << "Item is not found" << endl;
+        cout << "Item is not found" << item << endl;
     }
 
     return 0;
