@@ -16,7 +16,7 @@ class abc
 int main()
 {
     abc a1;
-    a1 . x = 75;
+    a1 . x = 85;
     a1 . y = 25;
     a1 . display();
     return 0;
