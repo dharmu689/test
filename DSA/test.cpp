@@ -1,4 +1,4 @@
-#include <iostream>
+thik#include <iostream>
 #include <stack>
 using namespace std;
 
@@ -27,7 +27,10 @@ void Postfix(char exp[]) {
 
 int main() {
     char exp[] = "a+b*(c^d-e)^(f+g*b)";
+    
     cout << "\nPostfix: ";
+    
     Postfix(exp);
+    
     return 0;
 }
