@@ -21,8 +21,11 @@ int main()
         if (arr[i] == item)
         {
             cout << "Found the data at index " << i << endl;
+
             found = true;
+
             break; // Exit the loop once found
+            
         }
     }
 
