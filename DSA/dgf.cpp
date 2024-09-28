@@ -9,6 +9,7 @@ int main()
     // enter the item
     
     cout << "Enter the item to be found: ";
+
     cin >> item;
 
     for(i = 0; i < 5; i++)
@@ -16,6 +17,7 @@ int main()
         if(a[i] == item)
         {
             cout << "Item is found at index: " << i << endl;
+            
             break; 
         }
     }
