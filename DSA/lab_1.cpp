@@ -10,6 +10,7 @@ int main()
     {
     cin>>arr[i];
     cout<<"Enter the element to be listed: ";
+    
     cin>>element;
     }
     arr[i] = element;
