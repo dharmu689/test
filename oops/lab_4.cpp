@@ -5,7 +5,9 @@ class ABC
 {
    private:
    int data;
+   
    public:
+
    void assign()
    {
       data = 20;
