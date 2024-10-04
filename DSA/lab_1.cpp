@@ -8,12 +8,12 @@ int main()
 
     for(i=0;i<4;i++)
     
-    {
+    
     cin>>arr[i];
     cout<<"Enter the element to be listed: ";
     
     cin>>element;
-    }
+    
     arr[i] = element;
     cout<<"The new array is: ";
     for(i=0;i<5;i++)
