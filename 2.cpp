@@ -1,11 +1,12 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
 int main() {
-    int i = 5; //Initialization
-    
-    while(i<=20){
+    // Remove the underscores and complete the code
+    int i = 10;
+    while (i>=0) {
         cout << i << endl;
-        i = i+1; //Update statement
+        i--;
     }
 }
