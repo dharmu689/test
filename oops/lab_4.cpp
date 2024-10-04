@@ -12,15 +12,18 @@ class ABC
    {
       data = 20;
    }
+
    void changedata()
    const
    {
       cout<<"can't the data of constant member fumction!" <<endl;
    }
+
    void show()
    {
     cout<<"Data = " <<data <<endl;
    }
+   
 };
 int main()
 {
