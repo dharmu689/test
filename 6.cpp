@@ -1,31 +1,13 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() {
-	// your code goes here
-	int a,b,c,d;
-    cout<<a<<b;
-	cin>>a>>b;
-	
-	c = a*a+2*a*b+b*b;
-	d = a+b;
-	
-	cout<<c<<endl;
-	cout<<d<<endl;
+    int a, b;
+    cout << "Enter the first value: ";
+    cin >> a;
+    cout << "Enter the second value: ";
+    cin >> b;
+    cout << "The sum is: " << a + b << endl;
 
-	cout<<
-	cin>>a>>b;
-	c = a*a+2*a*b+b*b;
-	d = a+b;
-	cout<<c<<endl;
-	cout<<d<<endl;
-	cout<<
-	cin>>a>>b;
-	c = a*a+2*a*b+b*b;
-	d = a+b;
-	cout<<c<<endl;
-	cout<<d<<endl;
-	
-	
-
+    return 0;
 }
