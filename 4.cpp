@@ -4,7 +4,8 @@ using namespace std;
 int main() {
 
   int i = 0;
-  do{
+  do
+  {
     cout << i << endl;
     i = i+1;
   }
