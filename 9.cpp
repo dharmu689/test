@@ -10,6 +10,7 @@ int main() {
     int num1, num2;
     cout << "1st n: " << endl;
     cin >> num1 ;
+
     cout<<"2nd n: " <<endl;
     cin >> num2;
 
@@ -17,6 +18,7 @@ int main() {
     int result2 = square(num2); // Call the square function again
 
     cout << "Square of " << num1 << " is " << result1 <<endl;
+    
     cout << "Square of " << num2 << " is " << result2 << endl;
 
     
