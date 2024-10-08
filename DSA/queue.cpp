@@ -53,9 +53,11 @@ Insert(30);
 Insert(40);
 Insert(50);
 cout<<"\n After insertion, queue= \n" ;
+
 // print Queue elements 
 // insert element in the queue 
 Display();
+cout<<endl;
 cout<<"enter new element";
 Insert(60);
 // print Queue elements 
