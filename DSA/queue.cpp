@@ -1,6 +1,7 @@
 #include <iostream> 
 using namespace std;
-int queue[20], n , front = 0, rear = 0; void Insert(int val)
+int queue[20], n , front = 0, rear = 0; 
+void Insert(int val)
 {
 if (rear == n)
 cout<<"Queue Overflow"<<endl;
@@ -46,7 +47,7 @@ return;
 int main()
 {
 // Create a queue of capacity 4
-cout<<" \n Enter size of queue:"; 
+cout<<" \n Enter size of queue: "; 
 cin>>n;
 Insert( 20 );
 
