@@ -38,7 +38,7 @@ else
 {
 for (i = front; i < rear; i++) 
 {
-cout<< queue[i+1];
+cout<< queue[i+1]<<", ";
 }
 }
 return;
@@ -48,23 +48,25 @@ int main()
 // Create a queue of capacity 4
 cout<<" \n Enter size of queue:"; 
 cin>>n;
-Insert(20);
-Insert(30); 
-Insert(40);
-Insert(50);
-cout<<"\n After insertion, queue= \n" ;
+Insert( 20 );
+
+Insert( 30 ); 
+Insert( 40 );
+Insert( 50 );
+cout<<"\n After insertion, queue=" ;
 
 // print Queue elements 
 // insert element in the queue 
 Display();
 cout<<endl;
-cout<<"enter new element";
+cout<<"enter new element = ";
 Insert(60);
 // print Queue elements 
 Display();
+
 Delete();
 Delete();
-cout<<"\n After deletion of 2 nodes,queue=\n";
+cout<<"\n After deletion of 2 nodes,queue=";
 // print Queue elements 
 Display();
 return 0;
