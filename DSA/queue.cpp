@@ -53,7 +53,7 @@ Insert( 20 );
 Insert( 30 ); 
 Insert( 40 );
 Insert( 50 );
-cout<<"\n After insertion, queue=" ;
+cout<<"\n After insertion, queue = " ;
 
 // print Queue elements 
 // insert element in the queue 
@@ -66,7 +66,7 @@ Display();
 
 Delete();
 Delete();
-cout<<"\n After deletion of 2 nodes,queue=";
+cout<<"\n After deletion of 2 nodes,queue = ";
 // print Queue elements 
 Display();
 return 0;
