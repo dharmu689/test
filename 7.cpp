@@ -1,8 +1,10 @@
-#include <bits/stdc++.h>
+#include<iostream>
 using namespace std;
 
-int main() {
+int main() 
+{
 	// your code goes here
+	
 	int a,b,c,d;
 	cin>>a>>b;
 	
