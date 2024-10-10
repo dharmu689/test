@@ -95,12 +95,15 @@ obj.createnode(10);
 
 cout<<"\nDisplayingAllnodes	\n";
 obj.display();
+
 cout<<"\nDeletingAtStart	\n";
 obj.delete_first();
 obj.display();
+
 cout<<"\nDeletionAtEnd	\n";
 obj.delete_last(); 
 obj.display();
+
 cout<<"\nDeletion After aParticularNode	\n";
 obj.delete_position(4);
 obj.display();
