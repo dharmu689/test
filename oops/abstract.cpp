@@ -5,7 +5,6 @@ class abstract_base
 {
     public:
     virtual void display() = 0;
-
 };
 
 class create_drived:public abstract_base
