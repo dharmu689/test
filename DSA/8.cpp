@@ -8,56 +8,44 @@ node *next;
  
 class list
 {
- 
-
-
 private:
 node *head, *tail; 
+
 public:
 list()
 {
- 
-head=NULL;
-tail=NULL;
+ head=NULL;
+ tail=NULL;
 }
+
 void createnode(int value)
 {
-node *temp=new node; 
-temp->data=value;
- 
-temp->next=NULL;
-if(head==NULL)
+ node *temp=new node; 
+ temp->data=value;
+ temp->next=NULL;
+ if(head==NULL)
 {
- 
-
-head=temp;
-tail=temp;
-temp=NULL;
-
+ head=temp;
+ tail=temp;
+ temp=NULL;
 }
 else
 {
-
-tail->next=temp;
-tail=temp;
-
+ tail->next=temp;
+ tail=temp;
 }
 }
- 
-
-
-
-
- 
+  
 void display()
 {
-node *temp=new node;
-temp=head; 
-while(temp!=NULL)
+ node *temp=new node;
+ temp=head; 
+ while(temp!=NULL)
 {
 cout<<temp->data<<"\t"; temp=temp->next;
 }
 }
+
 void insert_start(int value)
 {
 node *temp=new node;
@@ -65,6 +53,7 @@ temp->data=value;
 temp->next=head;
 head=temp;
 }
+
 void insert_position(int pos, int value)
 {
 node *pre=new node;
@@ -81,6 +70,7 @@ temp->next=cur;
 }
 
 };
+
 int main()
 {
 list obj; 
