@@ -1,8 +1,9 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 // Declare linked list node
-struct Node {
+struct Node 
+{
     int data;
     struct Node* link;
 };
@@ -30,14 +31,18 @@ void push(int data) {
     top = temp;
 }
 
-void pop() {
+void pop() 
+{
     struct Node* temp;
 
     // check for stack underflow
-    if (top == NULL) {
+    if (top == NULL)
+    {
         cout << "\nStack Underflow" << endl;
         exit(1);
-    } else {
+    } 
+    else 
+    {
         // top assign into temp
         temp = top;
 
@@ -52,16 +57,21 @@ void pop() {
     }
 }
 
-void display() {
+void display() 
+{
     struct Node* temp;
 
     // check for stack underflow
-    if (top == NULL) {
+    if (top == NULL) 
+    {
         cout << "\nStack Underflow";
         exit(1);
-    } else {
+    } 
+    else 
+    {
         temp = top;
-        while (temp != NULL) {
+        while (temp != NULL) 
+        {
             // print node data
             cout << temp->data << " ";
 
@@ -85,8 +95,7 @@ int main() {
     display();
 
     // delete top elements of stack
-    pop();
-    pop();
+    pop(); pop();
 
     cout << "\nStack elements after POP operation: ";
     // display stack elements
