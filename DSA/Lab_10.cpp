@@ -79,17 +79,11 @@ obj.createnode(50);
 obj.createnode(90);
 obj.createnode(40);
 
-
-
-
-
 cout<<"\n ----------------InsertingAtStart	\n";
-
 obj.insert_start(50);
 obj.display();
 
 cout<<"\n -----------------InsertingAtEnd	\n";
-
 obj.createnode(55);
 obj.display();
 
@@ -98,7 +92,6 @@ obj.insert_position(5,60);
 obj.display();
 
 cout<<"\n ---------------TraversingLinkedList	\n";
-
 obj.display();
 
 return 0;
