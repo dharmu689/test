@@ -1,113 +1,76 @@
-#include<iostream> 
-using namespace std; 
-struct node
-{
-int data;
-node *next;
-};
- 
-class list
-{
-private:
-node *head, *tail; 
-public:
-list()
-{
- 
-head=NULL;
-tail=NULL;
-}
+#include <iostream> 
+using namespace std;
 
-void createnode(int value)
+struct QNode { int data; QNode* next;QNode(int d)
 {
-node *temp=new node;
-temp->data=value;
-temp->next=NULL; 
-if(head==NULL)
-{
-head=temp; tail=temp; temp=NULL;
-}
-else
-{
-tail->next=temp; tail=temp;
-}
-}
-
-void display()
-{
-node *temp=new node; 
-temp=head;
-while(temp!=NULL)
-{
-cout<<temp->data<<"\t";
-temp=temp->next;
-}
-}
-
-void delete_first()
-{
-node *temp=new node;  
-temp=head;
-head=head->next;
-delete temp;
-}
-
-void delete_last()
-{
-node *current=new node;
-node *previous=new node;
-current=head;
-while(current->next!=NULL)
-{
-previous=current; 
-current=current->next;
-}
-tail=previous;
-previous->next=NULL; 
-delete current;
-}
-
-void delete_position(int pos)
-{
-node *current=new node;
-node *previous=new node;
-current=head;
-for(int i=1;i<pos;i++)
-{
-previous=current;
-current=current->next;
-}
-previous->next=current->next;
+data = d;
+next = NULL;
 }
 };
 
+struct Queue 
+{
+QNode *front, *rear;
+Queue()
+{
+front = rear = NULL;
+}
+
+void enQueue(int x)
+{
+
+// Create a new LL 
+ QNode* temp = new QNode(x);
+
+// If queue is empty, then
+// new node is front and rear both
+if (rear == NULL) 
+{
+front = rear = temp;
+return;
+}
+
+// Add the new node at
+// the end of queue and change rear
+rear->next = temp;
+rear = temp;
+}
+
+// Function to remove
+// a key from given queue q 
+void deQueue()
+{
+// If queue is empty, return NULL.
+if (front == NULL)
+return;
+
+// Store previous front and
+// move front one node ahead
+QNode* temp = front;
+front = front->next;
+
+// If front becomes NULL, then
+// change rear also as NULL
+if (front == NULL)
+rear = NULL;
+
+delete (temp);
+}
+};
+
+// Driven Program 
 int main()
 {
-list obj; obj.createnode(25); 
-obj.createnode(50);
-obj.createnode(90); 
-obj.createnode(40);
-obj.createnode(60);
-obj.createnode(70);
-obj.createnode(30); 
-obj.createnode(80); 
-obj.createnode(10);
 
-cout<<"\nDisplayingAllnodes	\n";
-obj.display();
-
-cout<<"\nDeletingAtStart	\n";
-obj.delete_first();
-obj.display();
-
-cout<<"\nDeletionAtEnd	\n";
-obj.delete_last(); 
-obj.display();
-
-cout<<"\nDeletion After aParticularNode	\n";
-obj.delete_position(4);
-obj.display();
- 
+Queue q;  
+q.enQueue(10);
+q.enQueue(20);
+q.deQueue();
+q.deQueue(); 
+q.enQueue(30); 
+q.enQueue(40);
+q.enQueue(50); 
+q.deQueue();
+cout<< "Queue Front : " << (q.front)->data <<endl; cout<< "Queue Rear : " << (q.rear)->data;
 return 0;
 }
-
