@@ -18,18 +18,21 @@ head=NULL;
 tail=NULL;
 }
 
-void createnode(int value)
+void create_node(int value)
 {
 node *temp=new node;
 temp->data=value;
 temp->next=NULL; 
 if(head==NULL)
 {
-head=temp; tail=temp; temp=NULL;
+head=temp; 
+tail=temp; 
+temp=NULL;
 }
 else
 {
-tail->next=temp; tail=temp;
+tail->next=temp; 
+tail=temp;
 }
 }
 
@@ -83,28 +86,29 @@ previous->next=current->next;
 
 int main()
 {
-list obj; obj.createnode(25); 
-obj.createnode(50);
-obj.createnode(90); 
-obj.createnode(40);
-obj.createnode(60);
-obj.createnode(70);
-obj.createnode(30); 
-obj.createnode(80); 
-obj.createnode(10);
+list obj; 
+obj.create_node(25); 
+obj.create_node(50);
+obj.create_node(90); 
+obj.create_node(40);
+obj.create_node(60);
+obj.create_node(70);
+obj.create_node(30); 
+obj.create_node(80); 
+obj.create_node(10);
 
-cout<<"\nDisplayingAllnodes	\n";
+cout<<"\n Displaying All nodes	\n";
 obj.display();
 
-cout<<"\nDeletingAtStart	\n";
+cout<<"\n Deleting At Start	\n";
 obj.delete_first();
 obj.display();
 
-cout<<"\nDeletionAtEnd	\n";
+cout<<"\n Deletion At End	\n";
 obj.delete_last(); 
 obj.display();
 
-cout<<"\nDeletion After aParticularNode	\n";
+cout<<"\n Deletion After a Particular Node	\n";
 obj.delete_position(4);
 obj.display();
  
