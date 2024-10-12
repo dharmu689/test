@@ -23,6 +23,7 @@ class D1:public B
         cout<<" show of D1 class."<<endl;
 }
 };
+
 int main()
 {
     B *p;
