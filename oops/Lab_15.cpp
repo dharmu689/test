@@ -8,6 +8,7 @@ class B
         cout<<"show of B class. "<<endl;
     }
 };
+
 class D:public B
 {
 
@@ -16,12 +17,13 @@ class D:public B
         cout<<"show of D class."<<endl;
     }
 };
+
 class D1:public B
 {
     void show()
     {
         cout<<" show of D1 class."<<endl;
-}
+    }
 };
 
 int main()
