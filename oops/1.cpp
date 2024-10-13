@@ -5,6 +5,7 @@ int main()
  {
 
   int a = 0;
+  
   // Remove the underscores and complete the code
   while (a < 7 ) 
   {
