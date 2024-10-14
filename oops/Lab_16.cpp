@@ -4,13 +4,18 @@ using namespace std;
 int main()
 {
     int a,b,c;
+    
     cout<<"Enter the value of a and b: "<<endl;
+
     cout<<"a = ";
     cin>>a;
+
     cout<<endl;
     cout<<"b = ";
     cin>>b;
+
     c = a-b;
+
     try
     {
         if(c!=0)
