@@ -11,6 +11,7 @@ class greatest
     {
         cout<<"Enter the first number :";
         cin>> x;
+
         cout<<"Enter the second number :";
         cin>> y;
     }
@@ -19,8 +20,10 @@ class greatest
     {
         if (x>y)
         cout<<"the greatest number is :" << x << endl;
+
         else if (y>x)
         cout<<"the greatest numer is :" << y <<endl;
+        
         else 
         cout<<"the greatest numer is."<< y <<endl;
         
