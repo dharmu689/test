@@ -15,10 +15,13 @@ void list_generator(int limit)
 
 // Do not update the code below this line
 
-int main() {
+int main()
+ {
     int A, B;
+    
     cout<<"1n: ";
     cin >> A ;
+
     cout<<"2n: ";
     cin>> B;
 
