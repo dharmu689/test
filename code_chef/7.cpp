@@ -31,7 +31,7 @@ int main()
 	cout<<c<<endl;
 	cout<<d<<endl;*/
 	
-	int num1, num2;
+	int num1, num2 ,t;
 
 	cout<<"1 no: ";
 	cin>>num1;
@@ -42,5 +42,6 @@ int main()
 	int result1 = area(num1,num2);
 
 	cout<<"area of a and b : " << result1;
-
+	
+      return 0;
 }
