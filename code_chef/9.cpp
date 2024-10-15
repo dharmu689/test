@@ -10,7 +10,7 @@ int square(int num)
 int main() 
 {
     int num1, num2;
-    
+
     cout << "1st n: " << endl;
     cin >> num1 ;
 
