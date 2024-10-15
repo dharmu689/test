@@ -2,12 +2,15 @@
 using namespace std;
 
 // User-defined function to calculate the square of a number
-int square(int num) {
+int square(int num) 
+{
     return num * num;
 }
 
-int main() {
+int main() 
+{
     int num1, num2;
+    
     cout << "1st n: " << endl;
     cin >> num1 ;
 
