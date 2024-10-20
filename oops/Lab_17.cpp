@@ -13,14 +13,19 @@ largest=b;
 cout<<"largest="<<largest;
 }
 int main()
-{ int i,j;
-cout<<"Enter the integer values: "<<endl;
-cin>>i>>j;
+{ 
+    int i,j;
+cout<<"Enter 1st integer values: ";
+cin>>i;
+cout<<"Enter 2nd integer values: ";
+cin>>j;
 compare(i,j);
 float p,q;
 cout<<endl;
-cout<<"Enter the float values: "<<endl;
-cin>>p>>q;
+cout<<"Enter 1st float values: ";
+cin>>p;
+cout<<"Enter 2nd float values: ";
+cin>>q;
 compare(p,q);
 return 0;
 }
