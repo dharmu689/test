@@ -8,9 +8,7 @@ int main()
     while(i>=n)
     {
         cout<<n<<endl;
-        
         n=n*2;
-
     }
 
 }
