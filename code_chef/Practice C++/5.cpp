@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main() 
+{
   int a = 4;
   int b = 1;
   while ( a != b )
