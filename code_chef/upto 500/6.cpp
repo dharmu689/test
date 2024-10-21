@@ -5,7 +5,6 @@
 //Solution - https://www.codechef.com/viewsolution/1099526781
 
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int main() {
