@@ -1,5 +1,5 @@
-Question - https://www.codechef.com/practice/course/logical-problems/DIFF800/problems/SUBSCRIBE_?tab=statement
-Solution - https://www.codechef.com/viewsolution/1099730847
+//Question - https://www.codechef.com/practice/course/logical-problems/DIFF800/problems/SUBSCRIBE_?tab=statement
+//Solution - https://www.codechef.com/viewsolution/1099730847
 
 #include <bits/stdc++.h>
 using namespace std;
