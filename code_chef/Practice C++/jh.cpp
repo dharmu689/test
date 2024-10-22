@@ -7,9 +7,7 @@ using namespace std;
 int main () {
 
   string num1 = "25";
-
   string num2 = "6";
-  
   cout << num1 + "\t" + num2;
 
   
