@@ -3,10 +3,8 @@ using namespace std;
 
 int main() 
 {
-
     int x = 62, y = 62;
-    
-     if (x > y)
+    if (x > y)
          
       cout << "x is greater";
          
