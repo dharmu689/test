@@ -8,6 +8,7 @@ void Postfix(char *exp) {
     
     for (int i = 0; exp[i] != '\0'; i++) {
         char ch = exp[i];
+        
         switch (ch) {
             case '^':
             case '-':
@@ -16,6 +17,7 @@ void Postfix(char *exp) {
             case '*':
                 s.push(ch);
                 break;
+            
             case ')':
                 t = s.top();
                 s.pop();
