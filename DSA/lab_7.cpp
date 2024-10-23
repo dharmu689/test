@@ -36,6 +36,7 @@ void Postfix(char exp[])
         char exp[]= "a+b*(c^d-e)^(f+g*b)";
         cout<<"\n con pos ";
         Postfix(exp);
+        
         return 0;
     }
 
