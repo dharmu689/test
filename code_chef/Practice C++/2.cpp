@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main() 
+{
     // Remove the underscores and complete the code
     int n=1;
     while (n<=5) {
