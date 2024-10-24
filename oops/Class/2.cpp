@@ -4,11 +4,11 @@ int main()
 {
     try
     {
-        int num;
-        int demo;
-        int result;
-        cout<<"random number"<<endl;
-        cout<<"random demo"<<endl;
+        int num,demo,result;
+        cout<<"random number: ";
+        cin>>num;
+        cout<<"random demo: ";
+        cin>>demo;
         if(demo==0)
         {
             throw runtime_error("Division by zero not allowed...!");
