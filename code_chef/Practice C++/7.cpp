@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int main()
 {
     int num;
@@ -11,5 +12,6 @@ int main()
         fact = fact*a;
     }
 	cout<<"The factorial of the given number is: "<<fact<<endl;
+    
     return 0;
 }
