@@ -10,8 +10,8 @@ int main()
         n/=10;
        
         count++;
-        cout<<count<<endl;
+       // cout<<count<<endl;
     }
-    //cout<<count;
+    cout<<count;
     return 0;
 }
