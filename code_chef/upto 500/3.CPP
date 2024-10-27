@@ -12,7 +12,7 @@ int main()
 {
 	// your code goes here
 	int x,y;
-	std::cin >> x>>y;
+	cin >> x>>y;
     //if(7>=(x+y))
     cout<<7-(x+y);
     
