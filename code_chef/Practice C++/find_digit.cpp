@@ -8,9 +8,10 @@ int main()
     while(n!=0)
     {
         n/=10;
-        cout<<count;
+       
         count++;
+        cout<<count<<endl;
     }
-    
+    //cout<<count;
     return 0;
 }
