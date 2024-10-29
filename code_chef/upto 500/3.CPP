@@ -15,6 +15,4 @@ int main()
 	cin >> x>>y;
     //if(7>=(x+y))
     cout<<7-(x+y);
-    
-
 }
