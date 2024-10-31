@@ -5,7 +5,8 @@
 
 using namespace std;
 
-int main() {
+int main() 
+{
     // your code goes here
     int t;
     cin >> t;
@@ -16,13 +17,10 @@ int main() {
         if (n <= (x * y))
         {
             cout << "yes" << endl;
-
         }
         else
         {
             cout << "no" << endl;
         }
-
     }
-
 }
