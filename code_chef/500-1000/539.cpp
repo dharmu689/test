@@ -15,5 +15,4 @@ int main()
         int coin = x*y;
         cout<<coin/100<<endl;
   	}
-
 }
