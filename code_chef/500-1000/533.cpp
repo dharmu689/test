@@ -25,7 +25,6 @@ int main()
         {
             unlucky++;
         }
-
     }
     if (lucky > unlucky)
     {
@@ -35,7 +34,4 @@ int main()
     {
         cout << "NOT READY";
     }
-
-
-
 }
