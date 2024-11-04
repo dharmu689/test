@@ -17,4 +17,5 @@ int main()
         int a = x / 10;
         cout << a * y << endl;
     }
+    
 }
