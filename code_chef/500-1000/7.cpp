@@ -15,4 +15,5 @@ int main()
 	    cin>>x>>y;
 	    cout<<4*x+y<<endl;
 	}
+	
 }
