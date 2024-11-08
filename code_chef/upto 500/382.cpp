@@ -4,7 +4,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main() 
+{
 	// your code goes herehttps://www.codechef.com/viewsolution/1104735313
 	int t;
 	cin>>t;
