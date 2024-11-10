@@ -23,9 +23,4 @@ int main()
 	cout<<X-Y<<endl;;
 	}
 
-
-
-
-
-
 }
