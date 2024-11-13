@@ -16,5 +16,3 @@ int main()
     //if(7>=(x+y))
     cout<<7-(x+y);
 }
-
-
